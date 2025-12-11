@@ -1,0 +1,85 @@
+*{margin:0;padding:0;box-sizing:border-box;}
+body{
+  background:url('https://wallpapercave.com/wp/wp4676588.png');
+  background-size:cover;
+  background-attachment:fixed;
+  font-family:'Pokemon Solid', sans-serif;
+  overflow-x:hidden;
+}
+
+.container{
+  margin:40px auto;
+  padding:30px;
+  max-width:850px;
+  background:rgba(255,255,255,0.85);
+  border:4px solid #ffcb05;
+  border-radius:15px;
+  text-align:center;
+  box-shadow:0 0 20px #2a75bb;
+}
+
+.titulo{
+  font-size:55px;
+  color:#2a75bb;
+  text-shadow:3px 3px #ffcb05;
+}
+
+.subtitulo{
+  margin-top:10px;
+  font-size:25px;
+  color:#2a75bb;
+}
+
+.gif{
+  width:330px;
+  border-radius:15px;
+  margin-top:20px;
+  border:3px solid #ffcb05;
+  box-shadow:0 0 20px #ffcb05;
+  animation:float 5s ease-in-out infinite;
+}
+
+@keyframes float{
+  0%{transform:translateY(0);}
+  50%{transform:translateY(-15px);}
+  100%{transform:translateY(0);}
+}
+
+.texto{
+  font-size:22px;
+  margin-top:20px;
+  color:#2a75bb;
+  line-height:1.6;
+}
+
+.poke-button{
+  margin-top:25px;
+  padding:12px 25px;
+  font-size:20px;
+  background:#ffcb05;
+  color:#2a75bb;
+  border:none;
+  border-radius:8px;
+  cursor:pointer;
+  box-shadow:0 0 15px #ffcb05;
+}
+
+.selector{
+  margin-bottom:15px;
+}
+
+.selector select{
+  padding:10px 15px;
+  border-radius:8px;
+  font-size:18px;
+  border:2px solid #2a75bb;
+}
+
+canvas#particle-canvas{
+  position:fixed;
+  top:0;left:0;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+  z-index:5;
+}

@@ -1,0 +1,37 @@
+# 💤 Pokémon — Proyecto Docker + Render (IaC)
+
+Este proyecto forma parte de la **Práctica Unidad IV**: *Despliegue de aplicaciones web en la nube usando contenedores e Infraestructura como Código*.
+
+La aplicación es una página web temática de **Pokémon**, creada con Node.js + Express, dockerizada y desplegada automáticamente en **Render** usando `render.yaml` como configuración IaC.
+
+---
+
+# 🚀 Tecnologías Utilizadas
+
+- **Node.js + Express**
+- **HTML, CSS, JavaScript**
+- **Docker + Dockerfile**
+- **Docker Compose (para pruebas locales)**
+- **Render (Cloud Hosting)**
+- **Infraestructura como Código → render.yaml**
+- **Variables de entorno (.env)**
+
+---
+
+# 🎨 Descripción de la Aplicación
+
+Pokémon es una aplicación web animada y temática inspirada en Pokémon:
+
+- Fondo temático
+- GIF animado flotante
+- Partículas interactivas
+- Sonido ambiental
+- Botón “Poké Ataque”
+- Temas dinámicos según tipo Pokémon (Fuego, Agua, Planta, Eléctrico)
+
+La app corre en un servidor Express preparado para entornos productivos.
+
+---
+
+# 📂 Estructura del Proyecto
+

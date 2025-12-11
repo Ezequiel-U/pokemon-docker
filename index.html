@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pokémon</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+  <link href="https://fonts.cdnfonts.com/css/pokemon-solid" rel="stylesheet" />
+</head>
+<body>
+  <div class="container">
+    <h1 class="titulo">🔥Pokémon 🔥</h1>
+
+    <div class="selector">
+      <label for="type">Selecciona tu tipo Pokémon:</label>
+      <select id="type">
+        <option value="">— Tipo —</option>
+        <option value="fire">🔥 Fuego</option>
+        <option value="water">💧 Agua</option>
+        <option value="grass">🍃 Planta</option>
+        <option value="electric">⚡ Eléctrico</option>
+      </select>
+    </div>
+
+    <h3 class="subtitulo">Entrenamiento, Sueño y Docker 💤</h3>
+
+    <div class="gif-container">
+      <img id="poke-gif" class="gif" 
+           src="https://media.giphy.com/media/l3vR85PnGsBwu1PFK/giphy.gif"
+           alt="Pokemon"/>
+    </div>
+
+    <p class="texto">
+      ¡Bienvenido entrenador! ⚡<br>
+      Esta app es parte del <strong>Paso 1 del Proyecto Docker</strong>.<br>
+      ¡Atrápalos todos, incluso dentro de contenedores!
+    </p>
+
+    <button id="spell-button" class="poke-button">Lanzar Poké Ataque ✨</button>
+
+  </div>
+
+  <canvas id="particle-canvas"></canvas>
+
+  <audio id="background-audio" 
+         src="https://cdn.pixabay.com/audio/2022/03/10/audio_7d9af89fa9.mp3" 
+         loop></audio>
+</body>
+</html>
