@@ -9,3 +9,9 @@ services:
     envVars:
       - key: PORT
         value: 3000
+      - key: DATABASE_URL
+        sync: true
+
+databases:
+  - name: db-pokemon
+    plan: free
