@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: pokemon
+    name: smartsleep-pokemon
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
@@ -9,3 +9,9 @@ services:
     envVars:
       - key: PORT
         value: 3000
+      - key: DATABASE_URL
+        sync: true
+
+databases:
+  - name: pokemon-db
+    plan: free
